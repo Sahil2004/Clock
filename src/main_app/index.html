@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <meta http-equiv="x-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="tab">
+      <button class="tablinks" onclick="openActivity(event, 'Clock')">Clock</button>
+      <button class="tablinks" onclick="openActivity(event, 'Alarms')">Alarms</button>
+      <button class="tablinks" onclick="openActivity(event, 'Timer')">Timer</button>
+      <button class="tablinks" onclick="openActivity(event, 'Stopwatch')">Stopwatch</button>
+    </div>
+    <section class="clock">
+      <div class="container">
+        <div class="real-clock">
+          <div class="hour">
+            <div class="hr" id="hr"></div>
+          </div>
+          <div class="min">
+            <div class="mn" id="mn"></div>
+          </div>
+          <div class="sec">
+            <div class="sc" id="sc"></div>
+          </div>
+        </div>
+        <div class="time-zones">
+          <div class="current-zone">
+
+          </div>
+          <div class="add-zones">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
+  </body>
+</html>

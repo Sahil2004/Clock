@@ -1,0 +1,26 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A clock app with cross-platform support with better GUI and account syncing of alarms, timers and world clocks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil2004/Clock.git"
+  },
+  "keywords": [
+    "Clock",
+    "Cross-platform"
+  ],
+  "author": "Sahil Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahil2004/Clock/issues"
+  },
+  "homepage": "https://github.com/Sahil2004/Clock#readme",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}
